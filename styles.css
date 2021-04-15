@@ -38,3 +38,40 @@ a {
     padding: 20px;
     padding-bottom: 200px;
 }
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    background: var(--footer-background);
+    color: var(--footer-font);
+    font-size: 1.4rem;
+}
+  
+  .left-section,
+  .right-section {
+    display: flex;
+}
+  
+  .right-section {
+    margin-right: 3rem;
+}
+  
+  .footer-link {
+    display: block;
+    padding: 1rem 0 1rem 3rem;
+}
+  
+  .footer-link:hover {
+    text-decoration: underline;
+    color: var(--footer-font-hover);
+}
+  
+  .footer-link:active {
+    color: var(--footer-font-active);
+}
